@@ -9,7 +9,7 @@ struct StrainSeries {
     double sample_rate;
 };
 
-class HDF5Reader {
+class HDF5Reader {0000
 public:
     static StrainSeries read_strain(const std::string& file_path, const std::string& dataset="/strain/Strain");
 };
